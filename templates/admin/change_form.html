@@ -1,0 +1,128 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_modify %}
+
+{% block extrastyle %}
+{{ block.super }}
+<style>
+    .form-panel {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    
+    .form-panel > h2 {
+        background: var(--primary-color);
+        color: white;
+        margin: 0;
+        padding: 15px 20px;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    
+    .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    .field-box {
+        flex: 1;
+        min-width: 250px;
+        padding: 10px;
+    }
+    
+    .aligned label {
+        display: block;
+        padding: 0 0 8px 0;
+        font-weight: 500;
+        color: var(--text-color);
+    }
+    
+    .submit-row {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    [dir="rtl"] .submit-row {
+        text-align: right;
+    }
+    
+    .submit-row input {
+        margin-left: 10px;
+    }
+    
+    [dir="rtl"] .submit-row input {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    
+    .errorlist {
+        color: var(--danger-color);
+        background: #fff5f5;
+        border: 1px solid #fee2e2;
+        border-radius: 4px;
+        padding: 10px;
+        margin: 5px 0;
+    }
+    
+    .help {
+        font-size: 0.9rem;
+        color: #666;
+        margin-top: 5px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div id="content-main">
+    <form {% if has_file_field %}enctype="multipart/form-data" {% endif %}action="{{ form_url }}" method="post" id="{{ opts.model_name }}_form" novalidate>
+        {% csrf_token %}
+        {% for fieldset in adminform %}
+        <div class="form-panel">
+            <h2>{{ fieldset.name|default:"معلومات" }}</h2>
+            {% for line in fieldset %}
+            <div class="form-row{% if line.fields|length_is:'1' and line.errors %} errors{% endif %}">
+                {% for field in line %}
+                <div class="field-box">
+                    {% if field.is_checkbox %}
+                        {{ field.field }}{{ field.label_tag }}
+                    {% else %}
+                        {{ field.label_tag }}
+                        {{ field.field }}
+                    {% endif %}
+                    {% if field.field.help_text %}
+                    <div class="help">{{ field.field.help_text|safe }}</div>
+                    {% endif %}
+                    {% if field.errors %}
+                    <ul class="errorlist">
+                        {% for error in field.errors %}
+                        <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+        
+        {% block after_field_sets %}{% endblock %}
+        
+        {% for inline_admin_formset in inline_admin_formsets %}
+        {% include inline_admin_formset.opts.template %}
+        {% endfor %}
+        
+        {% block after_related_objects %}{% endblock %}
+        
+        {% block submit_buttons_bottom %}{% submit_row %}{% endblock %}
+    </form>
+</div>
+{% endblock %}

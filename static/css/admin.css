@@ -1,0 +1,257 @@
+:root {
+    --primary-color: #714B67;
+    --secondary-color: #00A09D;
+    --background-color: #F8F9FA;
+    --border-color: #E5E5E5;
+    --text-color: #4c4c4c;
+    --link-color: #017e84;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+}
+
+/* Global Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* Header & Navigation */
+#header {
+    background: var(--primary-color);
+    color: white;
+    padding: 15px 40px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+#branding h1 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+#user-tools {
+    font-size: 0.9rem;
+}
+
+#user-tools a {
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+}
+
+#user-tools a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Sidebar Navigation */
+#nav-sidebar {
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 20px 0;
+    width: 250px;
+}
+
+#nav-sidebar .current-model {
+    background: var(--primary-color);
+    color: white;
+}
+
+.nav-sidebar a {
+    color: var(--text-color);
+    padding: 12px 24px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.nav-sidebar a:hover {
+    background: rgba(113, 75, 103, 0.1);
+}
+
+/* Content Area */
+#content {
+    padding: 20px 40px;
+}
+
+.module {
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.module h2, .module caption {
+    background: var(--primary-color);
+    color: white;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Buttons & Actions */
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: var(--primary-color);
+    color: white;
+    border-radius: 3px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.button:hover, input[type=submit]:hover, input[type=button]:hover {
+    background: var(--secondary-color);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.button.default {
+    background: var(--success-color);
+}
+
+/* Form Styling */
+.form-row {
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.form-row label {
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+input[type=text], input[type=password], input[type=email], textarea, select {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* List View */
+#changelist {
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+#changelist-filter {
+    background: white;
+    padding: 15px;
+    border-left: 1px solid var(--border-color);
+}
+
+#changelist-filter h2 {
+    background: var(--primary-color);
+    color: white;
+    padding: 12px;
+    margin: -15px -15px 15px -15px;
+    font-size: 1rem;
+    border-radius: 4px 0 0 0;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background: #f8f9fa;
+    padding: 12px;
+    font-weight: 500;
+    text-align: right;
+    color: var(--text-color);
+    border-bottom: 2px solid var(--border-color);
+}
+
+tbody tr:hover {
+    background: rgba(113, 75, 103, 0.05);
+}
+
+td, th {
+    padding: 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Dashboard */
+.dashboard .module table th {
+    width: 100%;
+    font-weight: 500;
+    background: var(--primary-color);
+    color: white;
+}
+
+.dashboard .module table td {
+    white-space: nowrap;
+}
+
+/* RTL Support */
+[dir="rtl"] .object-tools {
+    float: left;
+}
+
+[dir="rtl"] #branding h1 {
+    padding-right: 15px;
+}
+
+[dir="rtl"] .nav-sidebar a {
+    padding-right: 24px;
+}
+
+/* Messages */
+.messagelist {
+    padding: 0;
+    margin: 0 0 20px 0;
+    list-style: none;
+}
+
+.messagelist li {
+    padding: 12px 15px;
+    margin: 0 0 10px 0;
+    border-radius: 4px;
+    color: white;
+}
+
+.messagelist li.success {
+    background: var(--success-color);
+}
+
+.messagelist li.warning {
+    background: var(--warning-color);
+}
+
+.messagelist li.error {
+    background: var(--danger-color);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    #nav-sidebar {
+        width: 200px;
+    }
+    
+    #content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    #header {
+        padding: 10px 20px;
+    }
+    
+    #nav-sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .form-row {
+        padding: 10px 15px;
+    }
+}

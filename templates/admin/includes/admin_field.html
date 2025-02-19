@@ -1,0 +1,25 @@
+{% load admin_list %}
+
+{% for adminfield in fields %}
+<div class="field-box">
+    <div class="field-content {% if adminfield.field.errors %}errors{% endif %}">
+        <div class="field-label">
+            {{ adminfield.field.label_tag }}
+            {% if adminfield.field.field.help_text %}
+                <div class="help">{{ adminfield.field.field.help_text|safe }}</div>
+            {% endif %}
+        </div>
+        
+        <div class="field-widget">
+            {{ adminfield.field }}
+            {% if adminfield.field.errors %}
+                <ul class="errorlist">
+                {% for error in adminfield.field.errors %}
+                    <li>{{ error }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endfor %}

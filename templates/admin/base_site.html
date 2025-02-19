@@ -1,0 +1,67 @@
+{% extends "admin/base.html" %}
+{% load i18n static %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block extrastyle %}
+{{ block.super }}
+<link rel="stylesheet" type="text/css" href="{% static 'css/admin.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/admin_custom.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/admin_rtl.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/admin_header.css' %}">
+<style>
+    :root {
+        --primary-color: {{ primary_color|default:'#714B67' }};
+        --secondary-color: {{ secondary_color|default:'#00A09D' }};
+    }
+</style>
+{% endblock %}
+
+{% block bodyclass %}{{ block.super }} dashboard {% if request.LANGUAGE_CODE|language_bidi %}rtl{% endif %}{% endblock %}
+
+{% block branding %}
+<div class="branding">
+    <h1 id="site-name">
+        <a href="{% url 'admin:index' %}">
+            {{ site_header|default:_('نظام إدارة المشاريع') }}
+        </a>
+    </h1>
+    {% if user.is_authenticated %}
+    <div class="user-tools">
+        <span class="welcome-msg">{{ user.get_full_name|default:user.username }}</span>
+        <a href="{% url 'admin:password_change' %}" class="btn btn-sm">تغيير كلمة المرور</a>
+        <a href="{% url 'admin:logout' %}" class="btn btn-sm btn-danger">تسجيل الخروج</a>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block header %}
+    {% include "admin/header.html" %}
+{% endblock %}
+
+{% block messages %}
+    {% include "admin/includes/messages.html" %}
+{% endblock messages %}
+
+{% block nav-global %}{% endblock %}
+
+{% block content %}
+    {% include "admin/includes/loading.html" %}
+    {{ block.super }}
+{% endblock %}
+
+{% block footer %}
+<div id="footer">
+    <div class="footer-content">
+        <div class="footer-branding">
+            {{ site_header|default:_('نظام إدارة المشاريع') }} &copy; {% now "Y" %}
+        </div>
+        <div class="footer-links">
+            <a href="#" class="footer-link">المساعدة</a>
+            <a href="#" class="footer-link">الدعم الفني</a>
+            <a href="#" class="footer-link">سياسة الخصوصية</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

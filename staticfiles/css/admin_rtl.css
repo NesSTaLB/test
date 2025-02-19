@@ -1,0 +1,131 @@
+/* RTL Specific Styles for Admin Forms */
+[dir="rtl"] .form-row {
+    text-align: right;
+}
+
+[dir="rtl"] .field-box {
+    padding: 0 0 0 20px;
+}
+
+[dir="rtl"] .field-content {
+    margin: 0 0 15px 0;
+}
+
+/* Status and Priority Badges RTL */
+[dir="rtl"] .status-badge,
+[dir="rtl"] .priority-badge {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+/* Form Field Icons RTL */
+[dir="rtl"] .field-widget select {
+    padding-right: 12px;
+    padding-left: 30px;
+    background-position: left 10px center;
+}
+
+/* Help Text RTL */
+[dir="rtl"] .help {
+    margin: 5px 0 0 0;
+}
+
+/* Error Messages RTL */
+[dir="rtl"] .errorlist {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+/* Submit Row RTL */
+[dir="rtl"] .submit-row {
+    text-align: left;
+}
+
+[dir="rtl"] .submit-row input {
+    margin: 0 5px 0 0;
+}
+
+/* Date Fields RTL */
+[dir="rtl"] .field-start_date,
+[dir="rtl"] .field-end_date,
+[dir="rtl"] .field-due_date {
+    float: right;
+}
+
+/* Progress Bar RTL */
+[dir="rtl"] .progress-bar {
+    direction: ltr;
+}
+
+/* Team Members Selection RTL */
+[dir="rtl"] .selector {
+    direction: rtl;
+}
+
+[dir="rtl"] .selector select {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/* Field Groups RTL */
+[dir="rtl"] .field-group-title {
+    text-align: right;
+}
+
+/* Custom Field Styling for Arabic */
+.field-box input,
+.field-box textarea,
+.field-box select {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Required Field Indicator RTL */
+[dir="rtl"] .required label:after {
+    margin-right: 4px;
+    margin-left: 0;
+}
+
+/* Field Box Animations */
+.field-box {
+    transition: all 0.3s ease;
+}
+
+.field-box:focus-within {
+    transform: translateX(-2px);
+}
+
+[dir="rtl"] .field-box:focus-within {
+    transform: translateX(2px);
+}
+
+/* Enhanced Input Styling */
+.field-box input:not([type="checkbox"]):not([type="radio"]),
+.field-box textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.field-box input:focus,
+.field-box textarea:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(113, 75, 103, 0.1);
+}
+
+/* Label Styling */
+.field-box label {
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Help Text Enhancement */
+.help {
+    font-size: 12px;
+    color: #718096;
+    margin-top: 4px;
+}

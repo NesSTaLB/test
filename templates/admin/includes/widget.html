@@ -1,0 +1,37 @@
+{% with widget=widget %}
+<div class="widget-wrapper {% if widget.attrs.class %}{{ widget.attrs.class }}{% endif %}">
+    {% if widget.type == "text" or widget.type == "password" or widget.type == "email" or widget.type == "number" or widget.type == "url" %}
+        <input type="{{ widget.type }}" name="{{ widget.name }}"{% if widget.value != None %} value="{{ widget.value }}"{% endif %}{% include "django/forms/widgets/attrs.html" %}>
+    {% elif widget.type == "textarea" %}
+        <textarea name="{{ widget.name }}"{% include "django/forms/widgets/attrs.html" %}>{% if widget.value %}{{ widget.value }}{% endif %}</textarea>
+    {% elif widget.type == "select" %}
+        <select name="{{ widget.name }}"{% include "django/forms/widgets/attrs.html" %}>
+            {% for group_name, group_choices, group_index in widget.optgroups %}
+                {% if group_name %}
+                    <optgroup label="{{ group_name }}">
+                {% endif %}
+                {% for option in group_choices %}
+                    {% include option.template_name with widget=option %}
+                {% endfor %}
+                {% if group_name %}
+                    </optgroup>
+                {% endif %}
+            {% endfor %}
+        </select>
+    {% elif widget.type == "checkbox" %}
+        <div class="checkbox-wrapper">
+            <input type="checkbox" name="{{ widget.name }}" {% if widget.value != None %} value="{{ widget.value }}"{% endif %}{% include "django/forms/widgets/attrs.html" %}>
+            <span class="checkbox-label">{{ widget.attrs.label|default:"" }}</span>
+        </div>
+    {% elif widget.type == "file" %}
+        <div class="file-upload-wrapper">
+            <input type="file" name="{{ widget.name }}"{% include "django/forms/widgets/attrs.html" %}>
+            <div class="file-preview"></div>
+        </div>
+    {% elif widget.type == "date" %}
+        <input type="date" name="{{ widget.name }}"{% if widget.value != None %} value="{{ widget.value|date:'Y-m-d' }}"{% endif %}{% include "django/forms/widgets/attrs.html" %}>
+    {% else %}
+        <input type="{{ widget.type }}" name="{{ widget.name }}"{% if widget.value != None %} value="{{ widget.value }}"{% endif %}{% include "django/forms/widgets/attrs.html" %}>
+    {% endif %}
+</div>
+{% endwith %}

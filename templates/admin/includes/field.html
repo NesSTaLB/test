@@ -1,0 +1,23 @@
+{% if field.is_readonly %}
+<div class="readonly">{{ field.contents }}</div>
+{% else %}
+<div class="field-wrapper{% if field.errors %} errors{% endif %} {% if field.field.name %} field-{{ field.field.name }}{% endif %}">
+    <div class="field-header">
+        <label for="{{ field.field.auto_id }}">{{ field.field.label }}</label>
+        {% if field.field.field.required %}<span class="required">*</span>{% endif %}
+    </div>
+    <div class="field-input">
+        {{ field.field }}
+        {% if field.field.help_text %}
+            <div class="help">{{ field.field.help_text|safe }}</div>
+        {% endif %}
+        {% if field.errors %}
+            <ul class="errorlist">
+            {% for error in field.errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</div>
+{% endif %}

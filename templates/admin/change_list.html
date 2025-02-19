@@ -1,0 +1,157 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_list %}
+
+{% block extrastyle %}
+{{ block.super }}
+<style>
+    .changelist-header {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    
+    .changelist-header h2 {
+        margin: 0;
+        color: var(--primary-color);
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    #changelist {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    #changelist-search {
+        padding: 20px;
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    #changelist-search input[type="text"] {
+        padding: 8px 12px;
+        border: 1px solid var(--border-color);
+        border-radius: 4px;
+        width: 250px;
+    }
+    
+    #changelist-filter {
+        padding: 0;
+        border-right: 1px solid var(--border-color);
+    }
+    
+    #changelist-filter h2 {
+        background: var(--primary-color);
+        color: white;
+        padding: 15px;
+        margin: 0;
+        font-size: 1rem;
+    }
+    
+    #changelist-filter h3 {
+        padding: 15px;
+        margin: 0;
+        font-size: 0.9rem;
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    #changelist-filter ul {
+        padding: 10px 15px;
+        margin: 0;
+        list-style: none;
+    }
+    
+    #changelist-filter li.selected {
+        font-weight: bold;
+    }
+    
+    #changelist-filter a {
+        color: var(--text-color);
+        text-decoration: none;
+    }
+    
+    .actions {
+        padding: 15px 20px;
+        background: #f8f9fa;
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    .paginator {
+        padding: 15px 20px;
+        background: #f8f9fa;
+        border-top: 1px solid var(--border-color);
+    }
+    
+    #result_list {
+        width: 100%;
+    }
+    
+    #result_list thead th {
+        background: #f8f9fa;
+        padding: 12px;
+        font-weight: 500;
+    }
+    
+    #result_list tbody td {
+        padding: 12px;
+        vertical-align: middle;
+    }
+    
+    #result_list tbody tr:hover {
+        background: rgba(113, 75, 103, 0.05);
+    }
+    
+    .object-tools {
+        margin-top: -40px;
+    }
+    
+    .object-tools a {
+        background: var(--secondary-color);
+    }
+    
+    .object-tools a:hover {
+        background: var(--primary-color);
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div id="content-main">
+    <div class="changelist-header">
+        <h2>{{ cl.opts.verbose_name_plural|capfirst }}</h2>
+    </div>
+    
+    {% block object-tools %}
+        {% if has_add_permission %}
+            {% block object-tools-items %}
+                {% include "admin/object_tools.html" %}
+            {% endblock %}
+        {% endif %}
+    {% endblock %}
+    
+    {% block search %}{% search_form cl %}{% endblock %}
+    
+    {% block date_hierarchy %}{% if cl.date_hierarchy %}{% date_hierarchy cl %}{% endif %}{% endblock %}
+    
+    <div id="changelist" class="module">
+        {% block filters %}
+            {% if cl.has_filters %}
+                <div id="changelist-filter">
+                    <h2>{% trans 'Filter' %}</h2>
+                    {% for spec in cl.filter_specs %}{% admin_list_filter cl spec %}{% endfor %}
+                </div>
+            {% endif %}
+        {% endblock %}
+        
+        {% block result_list %}
+            {% if action_form and actions_on_top and cl.show_admin_actions %}{% admin_actions %}{% endif %}
+            {% result_list cl %}
+            {% if action_form and actions_on_bottom and cl.show_admin_actions %}{% admin_actions %}{% endif %}
+        {% endblock %}
+    </div>
+    
+    {% block pagination %}{% pagination cl %}{% endblock %}
+</div>
+{% endblock %}

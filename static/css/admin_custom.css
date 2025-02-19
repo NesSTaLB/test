@@ -1,0 +1,267 @@
+/* متغيرات النظام */
+:root {
+    --primary-color: #714B67;
+    --secondary-color: #00A09D;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --border-color: #e2e8f0;
+    --text-color: #4a5568;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition-base: all 0.3s ease;
+    --font-family: 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* الأنماط الأساسية */
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--light-color);
+    line-height: 1.6;
+}
+
+/* تنسيق النموذج */
+.form-panel {
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.form-panel h2 {
+    background: var(--primary-color);
+    color: white;
+    margin: 0;
+    padding: 1.25rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* تنسيق الحقول */
+.field-box {
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+
+.field-box label {
+    display: block;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.field-box input:not([type="checkbox"]):not([type="radio"]),
+.field-box textarea,
+.field-box select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: var(--transition-base);
+    background-color: white;
+}
+
+.field-box textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* حالة التركيز */
+.field-box input:focus,
+.field-box textarea:focus,
+.field-box select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(113, 75, 103, 0.1);
+    outline: none;
+}
+
+/* القوائم المنسدلة */
+.field-box select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23718096'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: left 1rem center;
+    background-size: 1.25rem;
+    padding-left: 2.5rem;
+}
+
+/* الحقول المطلوبة */
+.field-box.required label:after {
+    content: "*";
+    color: var(--danger-color);
+    margin-right: 0.25rem;
+}
+
+/* نص المساعدة */
+.help {
+    font-size: 0.875rem;
+    color: #718096;
+    margin-top: 0.5rem;
+}
+
+/* رسائل الخطأ */
+.errorlist {
+    list-style: none;
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    background-color: #fff5f5;
+    border: 1px solid #fed7d7;
+    border-radius: 6px;
+    color: var(--danger-color);
+}
+
+/* أزرار الإرسال */
+.submit-row {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.submit-row input {
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: var(--transition-base);
+}
+
+.submit-row input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.submit-row input[type="submit"]:hover {
+    background-color: #5d3d54;
+    transform: translateY(-1px);
+}
+
+/* دعم RTL */
+[dir="rtl"] .field-box select {
+    background-position: right 1rem center;
+    padding-right: 2.5rem;
+    padding-left: 1rem;
+}
+
+[dir="rtl"] .field-box.required label:after {
+    margin-right: 0;
+    margin-left: 0.25rem;
+}
+
+[dir="rtl"] .submit-row {
+    justify-content: flex-start;
+}
+
+/* التجاوب */
+@media (max-width: 768px) {
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .submit-row {
+        flex-direction: column;
+    }
+    
+    .submit-row input {
+        width: 100%;
+    }
+}
+
+/* تحسينات إضافية */
+.field-box {
+    transition: var(--transition-base);
+}
+
+.field-box:focus-within {
+    transform: translateY(-2px);
+}
+
+/* شريط التقدم */
+.progress-bar {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+    margin: 1rem 0;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: var(--success-color);
+    transition: width 0.3s ease;
+}
+
+/* الشارات */
+.badge {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.badge-success { background-color: #d1fae5; color: #065f46; }
+.badge-warning { background-color: #fef3c7; color: #92400e; }
+.badge-danger { background-color: #fee2e2; color: #991b1b; }
+
+/* تحسينات الجداول */
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 1rem;
+}
+
+.table th {
+    background-color: var(--light-color);
+    font-weight: 600;
+    text-align: right;
+    padding: 1rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    transition: var(--transition-base);
+}
+
+.table tbody tr:hover td {
+    background-color: rgba(113, 75, 103, 0.05);
+}
+
+/* تحسينات الأيقونات */
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+}
+
+/* تأثيرات التحويم */
+.hover-effect {
+    transition: var(--transition-base);
+}
+
+.hover-effect:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}

@@ -1,0 +1,230 @@
+{% extends 'base.html' %}
+
+{% block title %}لوحة التحكم - نظام إدارة الأعمال{% endblock %}
+
+{% block extra_head %}
+<style>
+    .dashboard-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .widget {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 20px;
+    }
+
+    .widget-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .widget-title {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .widget-content {
+        min-height: 200px;
+    }
+
+    .stat-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .stat-item {
+        text-align: center;
+        padding: 10px;
+        background: #f8f9fa;
+        border-radius: 4px;
+    }
+
+    .stat-value {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    .stat-label {
+        font-size: 0.9em;
+        color: #6c757d;
+    }
+
+    .chart-container {
+        height: 200px;
+        width: 100%;
+    }
+
+    .task-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .task-item {
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .task-item:last-child {
+        border-bottom: none;
+    }
+
+    .priority-high { color: #dc3545; }
+    .priority-medium { color: #ffc107; }
+    .priority-low { color: #28a745; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="dashboard-header">
+    <h1>مرحباً، {{ user.get_full_name }}</h1>
+    <p>{{ today|date:"l، j F Y" }}</p>
+</div>
+
+<div class="dashboard-grid">
+    <!-- مؤشرات الأداء الرئيسية -->
+    <div class="widget">
+        <div class="widget-header">
+            <span class="widget-title">نظرة عامة</span>
+        </div>
+        <div class="widget-content">
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <div class="stat-value">{{ projects_count }}</div>
+                    <div class="stat-label">المشاريع النشطة</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">{{ tasks_count }}</div>
+                    <div class="stat-label">المهام المعلقة</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">{{ sales_amount }}</div>
+                    <div class="stat-label">المبيعات (الشهر الحالي)</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">{{ leads_count }}</div>
+                    <div class="stat-label">العملاء المحتملون</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- المهام العاجلة -->
+    <div class="widget">
+        <div class="widget-header">
+            <span class="widget-title">المهام العاجلة</span>
+            <a href="{% url 'project_management:task-list' %}" class="btn btn-sm btn-primary">عرض الكل</a>
+        </div>
+        <div class="widget-content">
+            <ul class="task-list">
+                {% for task in urgent_tasks %}
+                <li class="task-item priority-{{ task.priority }}">
+                    <div class="task-title">{{ task.title }}</div>
+                    <div class="task-meta">
+                        <span>المشروع: {{ task.project.name }}</span>
+                        <span>الموعد النهائي: {{ task.due_date|date:"j/n/Y" }}</span>
+                    </div>
+                </li>
+                {% empty %}
+                <li class="task-item">لا توجد مهام عاجلة</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- حالة المبيعات -->
+    <div class="widget">
+        <div class="widget-header">
+            <span class="widget-title">تقرير المبيعات</span>
+            <a href="{% url 'sales:sales-report' %}" class="btn btn-sm btn-primary">التفاصيل</a>
+        </div>
+        <div class="widget-content">
+            <div class="chart-container" id="salesChart">
+                <!-- سيتم إضافة الرسم البياني هنا عبر JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- العملاء المحتملون -->
+    <div class="widget">
+        <div class="widget-header">
+            <span class="widget-title">العملاء المحتملون الجدد</span>
+            <a href="{% url 'crm:lead-list' %}" class="btn btn-sm btn-primary">عرض الكل</a>
+        </div>
+        <div class="widget-content">
+            <ul class="lead-list">
+                {% for lead in recent_leads %}
+                <li class="lead-item">
+                    <div class="lead-name">{{ lead.name }}</div>
+                    <div class="lead-meta">
+                        <span>المصدر: {{ lead.get_source_display }}</span>
+                        <span>الحالة: {{ lead.get_status_display }}</span>
+                    </div>
+                </li>
+                {% empty %}
+                <li class="lead-item">لا يوجد عملاء محتملون جدد</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- المخزون المنخفض -->
+    <div class="widget">
+        <div class="widget-header">
+            <span class="widget-title">تنبيهات المخزون</span>
+            <a href="{% url 'sales:product-list' %}" class="btn btn-sm btn-primary">إدارة المخزون</a>
+        </div>
+        <div class="widget-content">
+            <ul class="inventory-list">
+                {% for product in low_stock_products %}
+                <li class="inventory-item">
+                    <div class="product-name">{{ product.name }}</div>
+                    <div class="product-meta">
+                        <span>المخزون الحالي: {{ product.stock }}</span>
+                        <span>الحد الأدنى: {{ product.minimum_stock }}</span>
+                    </div>
+                </li>
+                {% empty %}
+                <li class="inventory-item">لا توجد تنبيهات مخزون</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // إعداد الرسوم البيانية
+    document.addEventListener('DOMContentLoaded', function() {
+        // رسم بياني للمبيعات
+        const salesCtx = document.getElementById('salesChart').getContext('2d');
+        new Chart(salesCtx, {
+            type: 'line',
+            data: {
+                labels: {{ sales_dates|safe }},
+                datasets: [{
+                    label: 'المبيعات',
+                    data: {{ sales_data|safe }},
+                    borderColor: '#007bff',
+                    tension: 0.1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        });
+    });
+</script>
+{% endblock %}

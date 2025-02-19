@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>تنبيه: انخفاض المخزون</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+        <div style="text-align: center; margin-bottom: 20px;">
+            <h1 style="color: #dc3545;">تنبيه: انخفاض المخزون</h1>
+        </div>
+        <div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
+            <p>تنبيه هام،</p>
+            <p>نود إعلامكم بأن المنتج التالي قد وصل إلى مستوى منخفض من المخزون:</p>
+            
+            <div style="background-color: #fff; padding: 15px; border-radius: 5px; margin: 20px 0;">
+                <h3 style="margin-top: 0; color: #dc3545;">تفاصيل المنتج:</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><strong>اسم المنتج:</strong> {{ product.name }}</li>
+                    <li><strong>رمز المنتج:</strong> {{ product.sku }}</li>
+                    <li><strong>الكمية المتبقية:</strong> {{ product.stock }}</li>
+                    <li><strong>الحد الأدنى للمخزون:</strong> {{ product.minimum_stock }}</li>
+                </ul>
+            </div>
+
+            <p style="color: #dc3545;">يرجى اتخاذ الإجراء اللازم وطلب كمية جديدة من هذا المنتج.</p>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="{{ product_url }}" style="background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">إدارة المخزون</a>
+            </div>
+        </div>
+        <div style="margin-top: 20px; text-align: center; color: #666;">
+            <p>تم إرسال هذا التنبيه تلقائياً من نظام إدارة المخزون.</p>
+        </div>
+    </div>
+</body>
+</html>

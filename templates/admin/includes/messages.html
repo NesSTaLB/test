@@ -1,0 +1,141 @@
+{% load i18n %}
+
+<div class="messages-container">
+    {% if messages %}
+    <ul class="messagelist">
+        {% for message in messages %}
+        <li class="message {% if message.tags %}{{ message.tags }}{% endif %}" data-auto-dismiss="5000">
+            <div class="message-content">
+                <span class="message-icon">
+                    {% if message.tags == 'success' %}✓
+                    {% elif message.tags == 'error' %}✕
+                    {% elif message.tags == 'warning' %}⚠
+                    {% elif message.tags == 'info' %}ℹ
+                    {% endif %}
+                </span>
+                <span class="message-text">{{ message }}</span>
+            </div>
+            <button type="button" class="message-close" onclick="this.parentElement.remove()">×</button>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>
+
+<style>
+    .messages-container {
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 9999;
+        width: 100%;
+        max-width: 600px;
+        pointer-events: none;
+    }
+
+    .messagelist {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .message {
+        margin: 10px 20px;
+        padding: 15px;
+        border-radius: 8px;
+        background: white;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        animation: slideIn 0.3s ease-out;
+        pointer-events: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .message-content {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .message-icon {
+        font-size: 1.2em;
+    }
+
+    .message.success {
+        background: #ebf9f1;
+        border-right: 4px solid #2ecc71;
+    }
+
+    .message.error {
+        background: #fdf3f3;
+        border-right: 4px solid #e74c3c;
+    }
+
+    .message.warning {
+        background: #fdf6e7;
+        border-right: 4px solid #f1c40f;
+    }
+
+    .message.info {
+        background: #e7f2fa;
+        border-right: 4px solid #3498db;
+    }
+
+    .message-close {
+        background: none;
+        border: none;
+        color: #666;
+        cursor: pointer;
+        font-size: 1.2em;
+        padding: 0 5px;
+        opacity: 0.7;
+    }
+
+    .message-close:hover {
+        opacity: 1;
+    }
+
+    [dir="rtl"] .message {
+        border-right: none;
+        border-left: 4px solid;
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideOut {
+        from {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        to {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const messages = document.querySelectorAll('.message[data-auto-dismiss]');
+    messages.forEach(message => {
+        const dismissTime = parseInt(message.dataset.autoDismiss);
+        if (dismissTime) {
+            setTimeout(() => {
+                message.style.animation = 'slideOut 0.3s ease-in forwards';
+                setTimeout(() => message.remove(), 300);
+            }, dismissTime);
+        }
+    });
+});
+</script>

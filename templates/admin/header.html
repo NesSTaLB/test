@@ -1,0 +1,59 @@
+{% load i18n static %}
+
+<header id="header">
+    <div class="header-content">
+        <div class="branding">
+            <h1 id="site-name">
+                <a href="{% url 'admin:index' %}">{{ site_header|default:_('نظام إدارة المشاريع') }}</a>
+            </h1>
+        </div>
+        
+        {% if user.is_authenticated %}
+        <div class="header-tools">
+            <div class="quick-actions">
+                <a href="{% url 'admin:project_management_project_add' %}" class="action-button">
+                    <span class="icon">+</span>
+                    <span class="text">مشروع جديد</span>
+                </a>
+                <a href="{% url 'admin:project_management_task_add' %}" class="action-button">
+                    <span class="icon">✓</span>
+                    <span class="text">مهمة جديدة</span>
+                </a>
+            </div>
+            
+            <div class="user-menu">
+                <div class="user-info">
+                    <span class="welcome">مرحباً،</span>
+                    <span class="username">{{ user.get_full_name|default:user.username }}</span>
+                </div>
+                <div class="user-actions">
+                    <a href="{% url 'admin:password_change' %}" class="user-action">
+                        <span class="icon">🔑</span>
+                        <span class="text">تغيير كلمة المرور</span>
+                    </a>
+                    <a href="{% url 'admin:logout' %}" class="user-action">
+                        <span class="icon">↪</span>
+                        <span class="text">تسجيل الخروج</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    
+    {% if user.is_authenticated %}
+    <div class="breadcrumbs">
+        {% block breadcrumbs %}
+        <div class="breadcrumbs-inner">
+            <span class="home-link">
+                <a href="{% url 'admin:index' %}">الرئيسية</a>
+            </span>
+            {% if title %}
+            <span class="separator">›</span>
+            <span class="current">{{ title }}</span>
+            {% endif %}
+        </div>
+        {% endblock %}
+    </div>
+    {% endif %}
+</header>

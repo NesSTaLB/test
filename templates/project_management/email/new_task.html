@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>مهمة جديدة</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+        <div style="text-align: center; margin-bottom: 20px;">
+            <h1>تم إسناد مهمة جديدة إليك</h1>
+        </div>
+        <div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
+            <p>مرحباً {{ task.assigned_to.get_full_name }}،</p>
+            <p>تم إسناد مهمة جديدة إليك في مشروع <strong>{{ task.project.name }}</strong>.</p>
+            
+            <div style="background-color: #fff; padding: 15px; border-radius: 5px; margin: 20px 0;">
+                <h3 style="margin-top: 0; color: #007bff;">تفاصيل المهمة:</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><strong>العنوان:</strong> {{ task.title }}</li>
+                    <li><strong>الوصف:</strong> {{ task.description }}</li>
+                    <li><strong>تاريخ الاستحقاق:</strong> {{ task.due_date }}</li>
+                    <li><strong>الأولوية:</strong> {{ task.get_priority_display }}</li>
+                    <li><strong>الحالة:</strong> {{ task.get_status_display }}</li>
+                </ul>
+            </div>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="{{ task_url }}" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">عرض المهمة</a>
+            </div>
+        </div>
+        <div style="margin-top: 20px; text-align: center; color: #666;">
+            <p>تم إرسال هذه الرسالة تلقائياً من نظام إدارة المشاريع.</p>
+        </div>
+    </div>
+</body>
+</html>

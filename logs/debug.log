@@ -1,0 +1,1760 @@
+INFO 2025-02-18 20:03:57,875 autoreload 60637 139742438887552 Watching for file changes with StatReloader
+INFO 2025-02-18 20:15:58,372 autoreload 60637 139742438887552 /home/nessta/Desktop/management_system/management_system/settings.py changed, reloading.
+INFO 2025-02-18 20:15:59,271 autoreload 67946 140394272534656 Watching for file changes with StatReloader
+INFO 2025-02-18 20:16:46,550 autoreload 67946 140394272534656 /home/nessta/Desktop/management_system/crm/views.py changed, reloading.
+INFO 2025-02-18 20:16:48,490 autoreload 68563 140158418735232 Watching for file changes with StatReloader
+INFO 2025-02-18 20:20:20,944 autoreload 71114 140212169801856 Watching for file changes with StatReloader
+WARNING 2025-02-18 20:20:41,921 log 71114 140212053214912 Not Found: /
+WARNING 2025-02-18 20:20:41,922 basehttp 71114 140212053214912 "GET / HTTP/1.1" 404 12862
+INFO 2025-02-18 20:20:42,025 basehttp 71114 140212042729152 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-02-18 20:20:42,044 basehttp 71114 140212053214912 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-02-18 20:20:42,098 basehttp 71114 140211956745920 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-02-18 20:20:42,254 basehttp 71114 140211956745920 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2025-02-18 20:20:42,605 log 71114 140211956745920 Not Found: /favicon.ico
+WARNING 2025-02-18 20:20:42,607 basehttp 71114 140211956745920 "GET /favicon.ico HTTP/1.1" 404 12923
+INFO 2025-02-18 20:20:50,670 basehttp 71114 140211956745920 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-02-18 20:20:50,785 basehttp 71114 140211956745920 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13751
+INFO 2025-02-18 20:20:50,881 basehttp 71114 140211956745920 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2025-02-18 20:20:50,888 basehttp 71114 140212042729152 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-02-18 20:20:50,889 basehttp 71114 140212053214912 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-02-18 20:20:50,942 basehttp 71114 140212053214912 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-02-18 20:20:50,953 basehttp 71114 140212042729152 "GET /static/admin/css/rtl.css HTTP/1.1" 200 4918
+INFO 2025-02-18 20:20:50,959 basehttp 71114 140211956745920 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2025-02-18 20:20:50,972 basehttp 71114 140211956745920 "GET /static/admin/css/responsive_rtl.css HTTP/1.1" 200 1864
+INFO 2025-02-18 20:20:51,056 basehttp 71114 140211956745920 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-02-18 20:20:51,066 basehttp 71114 140212053214912 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-02-18 20:21:08,129 basehttp 71114 140211956745920 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-02-18 20:21:08,333 basehttp 71114 140211956745920 "GET /admin/ HTTP/1.1" 200 22685
+INFO 2025-02-18 20:21:08,405 basehttp 71114 140211956745920 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-02-18 20:21:08,458 basehttp 71114 140211956745920 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-02-18 20:21:08,460 basehttp 71114 140212053214912 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-02-18 20:25:39,639 basehttp 71114 140211956745920 "GET /admin/purchases/purchase/add/ HTTP/1.1" 200 39651
+INFO 2025-02-18 20:25:39,685 basehttp 71114 140211946260160 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:39,694 basehttp 71114 140211956745920 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:39,698 basehttp 71114 140212053214912 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2025-02-18 20:25:39,703 basehttp 71114 140211935774400 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:39,708 basehttp 71114 140211925288640 "GET /static/admin/css/rtl.css HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:39,709 basehttp 71114 140211946260160 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+INFO 2025-02-18 20:25:39,733 basehttp 71114 140212053214912 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:39,739 basehttp 71114 140211935774400 "GET /static/admin/css/responsive_rtl.css HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:39,746 basehttp 71114 140211956745920 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+INFO 2025-02-18 20:25:39,770 basehttp 71114 140211925288640 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-02-18 20:25:39,793 basehttp 71114 140211946260160 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2025-02-18 20:25:39,824 basehttp 71114 140212053214912 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-02-18 20:25:39,828 basehttp 71114 140212042729152 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-18 20:25:39,833 basehttp 71114 140211935774400 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-02-18 20:25:39,835 basehttp 71114 140211925288640 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-02-18 20:25:39,836 basehttp 71114 140211956745920 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-02-18 20:25:39,847 basehttp 71114 140211946260160 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-02-18 20:25:39,851 basehttp 71114 140212042729152 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-02-18 20:25:39,888 basehttp 71114 140212053214912 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-02-18 20:25:39,909 basehttp 71114 140211956745920 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:39,918 basehttp 71114 140211946260160 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:39,920 basehttp 71114 140211935774400 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-02-18 20:25:39,921 basehttp 71114 140212042729152 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:39,996 basehttp 71114 140212042729152 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:39,997 basehttp 71114 140211956745920 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-02-18 20:25:40,001 basehttp 71114 140212053214912 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:40,002 basehttp 71114 140211946260160 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2025-02-18 20:25:40,004 basehttp 71114 140211935774400 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:40,007 basehttp 71114 140211925288640 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-02-18 20:25:40,007 basehttp 71114 140212053214912 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-02-18 20:25:40,142 basehttp 71114 140212053214912 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:40,166 basehttp 71114 140212053214912 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-02-18 20:25:40,218 basehttp 71114 140212053214912 "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+INFO 2025-02-18 20:25:40,317 basehttp 71114 140212053214912 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+WARNING 2025-02-18 20:26:03,331 log 71114 140212053214912 Not Found: /
+WARNING 2025-02-18 20:26:03,331 basehttp 71114 140212053214912 "GET / HTTP/1.1" 404 12861
+WARNING 2025-02-18 20:26:04,436 log 71114 140212053214912 Not Found: /
+WARNING 2025-02-18 20:26:04,437 basehttp 71114 140212053214912 "GET / HTTP/1.1" 404 12861
+INFO 2025-02-18 20:26:47,086 autoreload 68563 140158418735232 /home/nessta/Desktop/management_system/management_system/urls.py changed, reloading.
+INFO 2025-02-18 20:26:47,812 autoreload 71114 140212169801856 /home/nessta/Desktop/management_system/management_system/urls.py changed, reloading.
+INFO 2025-02-18 20:26:48,474 autoreload 74770 140614438457472 Watching for file changes with StatReloader
+INFO 2025-02-18 20:26:49,305 autoreload 74791 139662573461632 Watching for file changes with StatReloader
+INFO 2025-02-18 20:26:52,953 basehttp 74770 140614320522944 "GET /admin/ HTTP/1.1" 200 22686
+INFO 2025-02-18 20:26:52,987 basehttp 74770 140614320522944 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-02-18 20:26:57,348 basehttp 74770 140614320522944 "GET /admin/project_management/project/add/ HTTP/1.1" 200 31892
+INFO 2025-02-18 20:26:57,459 basehttp 74770 140614310037184 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2025-02-18 20:26:57,460 basehttp 74770 140614299551424 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-02-18 20:26:57,462 basehttp 74770 140614289065664 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2025-02-18 20:26:57,504 basehttp 74770 140614320522944 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-18 20:26:57,712 basehttp 74770 140614320522944 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2025-02-18 20:26:57,717 basehttp 74770 140614289065664 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-02-18 20:26:57,718 basehttp 74770 140614310037184 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2025-02-18 20:26:57,718 basehttp 74770 140614299551424 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2025-02-18 20:27:08,330 basehttp 74770 140614299551424 "GET /admin/project_management/task/add/ HTTP/1.1" 200 34033
+INFO 2025-02-18 20:27:08,412 basehttp 74770 140614299551424 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-18 20:27:18,496 basehttp 74770 140614299551424 "GET /admin/purchases/purchase/add/ HTTP/1.1" 200 39651
+INFO 2025-02-18 20:27:18,574 basehttp 74770 140614299551424 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-18 20:27:27,968 basehttp 74770 140614299551424 "GET /admin/sales/product/add/ HTTP/1.1" 200 27395
+INFO 2025-02-18 20:27:28,036 basehttp 74770 140614299551424 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-18 20:27:33,519 basehttp 74770 140614299551424 "GET /admin/project_management/project/add/ HTTP/1.1" 200 31890
+INFO 2025-02-18 20:27:33,579 basehttp 74770 140614299551424 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-18 20:27:36,804 basehttp 74770 140614299551424 "GET /admin/sales/sale/add/ HTTP/1.1" 200 37424
+INFO 2025-02-18 20:27:36,868 basehttp 74770 140614299551424 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-18 20:27:41,876 basehttp 74770 140614299551424 "GET /admin/purchases/purchase/add/ HTTP/1.1" 200 39651
+INFO 2025-02-18 20:27:41,957 basehttp 74770 140614299551424 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-18 20:27:46,580 basehttp 74770 140614299551424 "GET /admin/users/customuser/add/ HTTP/1.1" 200 27798
+INFO 2025-02-18 20:27:46,650 basehttp 74770 140614299551424 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-18 20:28:10,676 autoreload 74770 140614438457472 /home/nessta/Desktop/management_system/crm/views.py changed, reloading.
+INFO 2025-02-18 20:28:13,614 autoreload 75828 139881378218112 Watching for file changes with StatReloader
+ERROR 2025-02-18 20:28:22,576 log 75828 139881261041344 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user-profile' not found. 'user-profile' is not a valid view function or pattern name.
+ERROR 2025-02-18 20:28:22,630 basehttp 75828 139881261041344 "GET / HTTP/1.1" 500 170422
+ERROR 2025-02-18 20:28:23,357 log 75828 139881261041344 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'user-profile' not found. 'user-profile' is not a valid view function or pattern name.
+ERROR 2025-02-18 20:28:23,398 basehttp 75828 139881261041344 "GET / HTTP/1.1" 500 170148
+ERROR 2025-02-18 20:30:20,333 log 75828 139881261041344 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2025-02-18 20:30:20,366 basehttp 75828 139881261041344 "GET / HTTP/1.1" 500 169397
+INFO 2025-02-18 20:30:20,393 basehttp 75828 139881261041344 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-02-18 20:30:20,394 basehttp 75828 139881177155264 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-02-18 20:30:20,452 basehttp 75828 139881261041344 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-02-18 20:30:20,542 basehttp 75828 139881261041344 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-02-18 20:30:50,160 autoreload 77497 140146601582720 Watching for file changes with StatReloader
+ERROR 2025-02-18 20:30:57,488 log 75828 139881261041344 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2025-02-18 20:30:57,517 basehttp 75828 139881261041344 "GET / HTTP/1.1" 500 169397
+INFO 2025-02-18 20:31:52,452 autoreload 75828 139881378218112 /home/nessta/Desktop/management_system/management_system/urls.py changed, reloading.
+INFO 2025-02-18 20:31:53,474 autoreload 78087 140337290276992 Watching for file changes with StatReloader
+INFO 2025-02-18 20:32:39,474 autoreload 78505 140070812508288 Watching for file changes with StatReloader
+INFO 2025-02-18 20:32:44,514 basehttp 78087 140337173497536 "GET / HTTP/1.1" 200 12078
+INFO 2025-02-19 01:54:20,836 autoreload 8730 140566390239360 Watching for file changes with StatReloader
+INFO 2025-02-19 01:54:52,609 basehttp 8730 140566272673472 "GET /admin/ HTTP/1.1" 200 22685
+INFO 2025-02-19 01:54:52,741 basehttp 8730 140566272673472 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,754 basehttp 8730 140566272673472 "GET /static/admin/css/rtl.css HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,782 basehttp 8730 140566146844352 "GET /static/admin/css/responsive_rtl.css HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,755 basehttp 8730 140566241216192 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,786 basehttp 8730 140566241216192 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,758 basehttp 8730 140566251701952 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,762 basehttp 8730 140566262187712 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,768 basehttp 8730 140566157330112 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,799 basehttp 8730 140566251701952 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,812 basehttp 8730 140566262187712 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,815 basehttp 8730 140566157330112 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,822 basehttp 8730 140566272673472 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,869 basehttp 8730 140566262187712 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:52,878 basehttp 8730 140566251701952 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-02-19 01:54:53,677 basehttp 8730 140566251701952 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2025-02-19 01:54:53,859 log 8730 140566251701952 Not Found: /favicon.ico
+WARNING 2025-02-19 01:54:53,860 basehttp 8730 140566251701952 "GET /favicon.ico HTTP/1.1" 404 13278
+INFO 2025-02-19 01:55:00,366 basehttp 8730 140566262187712 "GET /admin/sales/customer/add/ HTTP/1.1" 200 27407
+INFO 2025-02-19 01:55:00,450 basehttp 8730 140566251701952 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:00,451 basehttp 8730 140566146844352 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:00,453 basehttp 8730 140566272673472 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:00,455 basehttp 8730 140566157330112 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:00,463 basehttp 8730 140566272673472 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:00,487 basehttp 8730 140566251701952 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:00,488 basehttp 8730 140566146844352 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:00,493 basehttp 8730 140566157330112 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:00,501 basehttp 8730 140566241216192 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:00,525 basehttp 8730 140566272673472 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:00,554 basehttp 8730 140566241216192 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:00,619 basehttp 8730 140566262187712 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-19 01:55:00,642 basehttp 8730 140566262187712 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:04,113 basehttp 8730 140566262187712 "GET /admin/dashboard/userdashboardpreference/add/ HTTP/1.1" 200 26185
+INFO 2025-02-19 01:55:04,173 basehttp 8730 140566241216192 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:04,215 basehttp 8730 140566262187712 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-19 01:55:08,455 basehttp 8730 140566262187712 "GET /admin/dashboard/userwidgetsettings/add/ HTTP/1.1" 200 28132
+INFO 2025-02-19 01:55:08,543 basehttp 8730 140566262187712 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-19 01:55:11,170 basehttp 8730 140566262187712 "GET /admin/crm/lead/add/ HTTP/1.1" 200 30742
+INFO 2025-02-19 01:55:11,224 basehttp 8730 140566241216192 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:11,261 basehttp 8730 140566262187712 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-19 01:55:18,708 basehttp 8730 140566262187712 "GET /admin/crm/activity/add/ HTTP/1.1" 200 32027
+INFO 2025-02-19 01:55:18,751 basehttp 8730 140566241216192 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:18,752 basehttp 8730 140566272673472 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:18,806 basehttp 8730 140566262187712 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-19 01:55:18,972 basehttp 8730 140566272673472 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:18,976 basehttp 8730 140566262187712 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-02-19 01:55:25,008 basehttp 8730 140566262187712 "GET /admin/crm/lead/add/ HTTP/1.1" 200 30740
+INFO 2025-02-19 01:55:25,166 basehttp 8730 140566262187712 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-19 01:55:31,464 basehttp 8730 140566262187712 "GET /admin/project_management/project/add/ HTTP/1.1" 200 31892
+INFO 2025-02-19 01:55:31,512 basehttp 8730 140566251701952 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:31,514 basehttp 8730 140566272673472 "GET /static/admin/js/collapse.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:31,523 basehttp 8730 140566241216192 "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:31,562 basehttp 8730 140566262187712 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-19 01:55:31,738 basehttp 8730 140566272673472 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:31,742 basehttp 8730 140566251701952 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:31,743 basehttp 8730 140566241216192 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-02-19 01:55:31,744 basehttp 8730 140566262187712 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+INFO 2025-02-19 01:56:26,079 autoreload 8730 140566390239360 /home/nessta/Desktop/management_system/project_management/models.py changed, reloading.
+INFO 2025-02-19 01:56:27,225 autoreload 10023 140118439067776 Watching for file changes with StatReloader
+INFO 2025-02-19 01:56:42,446 autoreload 10023 140118439067776 /home/nessta/Desktop/management_system/project_management/admin.py changed, reloading.
+INFO 2025-02-19 01:56:43,562 autoreload 10194 140023037919360 Watching for file changes with StatReloader
+INFO 2025-02-19 02:08:00,517 basehttp 10194 140022843967168 "GET / HTTP/1.1" 200 12078
+INFO 2025-02-19 02:08:06,771 basehttp 10194 140022843967168 "GET /admin/ HTTP/1.1" 200 22685
+INFO 2025-02-19 02:08:36,487 autoreload 10194 140023037919360 /home/nessta/Desktop/management_system/project_management/models.py changed, reloading.
+INFO 2025-02-19 02:08:37,622 autoreload 16669 140720084099200 Watching for file changes with StatReloader
+INFO 2025-02-19 02:10:24,555 autoreload 16669 140720084099200 /home/nessta/Desktop/management_system/management_system/settings.py changed, reloading.
+INFO 2025-02-19 02:10:25,498 autoreload 17692 139712803766400 Watching for file changes with StatReloader
+INFO 2025-02-19 02:10:46,948 autoreload 17692 139712803766400 /home/nessta/Desktop/management_system/management_system/urls.py changed, reloading.
+INFO 2025-02-19 02:10:47,825 autoreload 17919 140646079942784 Watching for file changes with StatReloader
+INFO 2025-02-19 02:11:01,848 autoreload 18252 140663310127232 Watching for file changes with StatReloader
+INFO 2025-02-19 02:11:08,886 basehttp 17919 140645962352320 "GET / HTTP/1.1" 200 12078
+INFO 2025-02-19 02:11:10,982 basehttp 17919 140645962352320 "GET / HTTP/1.1" 200 12076
+INFO 2025-02-19 02:11:35,044 basehttp 17919 140645962352320 "GET /admin/ HTTP/1.1" 200 22794
+INFO 2025-02-19 02:11:35,116 basehttp 17919 140645962352320 "GET /static/css/admin.css HTTP/1.1" 200 2261
+INFO 2025-02-19 02:11:52,971 basehttp 17919 140645962352320 "GET /admin/project_management/project/add/ HTTP/1.1" 200 33390
+INFO 2025-02-19 02:11:53,034 basehttp 17919 140645882660544 "GET /static/css/admin.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:11:53,098 basehttp 17919 140645962352320 "GET /admin/jsi18n/ HTTP/1.1" 200 14011
+INFO 2025-02-19 02:17:37,247 autoreload 17919 140646079942784 /home/nessta/Desktop/management_system/dashboard/views.py changed, reloading.
+INFO 2025-02-19 02:17:38,450 autoreload 21815 140213624336512 Watching for file changes with StatReloader
+INFO 2025-02-19 02:17:46,352 autoreload 21815 140213624336512 /home/nessta/Desktop/management_system/dashboard/urls.py changed, reloading.
+INFO 2025-02-19 02:17:47,477 autoreload 21954 140293176049792 Watching for file changes with StatReloader
+INFO 2025-02-19 02:18:06,852 autoreload 21954 140293176049792 /home/nessta/Desktop/management_system/dashboard/views.py changed, reloading.
+INFO 2025-02-19 02:18:08,315 autoreload 22174 140091604648064 Watching for file changes with StatReloader
+INFO 2025-02-19 02:19:01,063 autoreload 22174 140091604648064 /home/nessta/Desktop/management_system/dashboard/views.py changed, reloading.
+INFO 2025-02-19 02:19:02,500 autoreload 22670 140098182062208 Watching for file changes with StatReloader
+INFO 2025-02-19 02:19:38,556 autoreload 23230 140448715317376 Watching for file changes with StatReloader
+INFO 2025-02-19 02:21:25,884 autoreload 23230 140448715317376 /home/nessta/Desktop/management_system/management_system/settings.py changed, reloading.
+INFO 2025-02-19 02:21:26,550 autoreload 22670 140098182062208 /home/nessta/Desktop/management_system/management_system/settings.py changed, reloading.
+INFO 2025-02-19 02:21:27,648 autoreload 24197 140184026980480 Watching for file changes with StatReloader
+INFO 2025-02-19 02:21:27,924 autoreload 24203 140413717868672 Watching for file changes with StatReloader
+INFO 2025-02-19 02:24:32,900 autoreload 24197 140184026980480 /home/nessta/Desktop/management_system/dashboard/views.py changed, reloading.
+INFO 2025-02-19 02:24:33,076 autoreload 24203 140413717868672 /home/nessta/Desktop/management_system/dashboard/views.py changed, reloading.
+INFO 2025-02-19 02:24:34,510 autoreload 25975 140680805224576 Watching for file changes with StatReloader
+INFO 2025-02-19 02:24:34,542 autoreload 25976 139741954924672 Watching for file changes with StatReloader
+INFO 2025-02-19 02:24:50,317 basehttp 25975 140680689092288 "GET /admin/project_management/project/add/ HTTP/1.1" 200 28586
+INFO 2025-02-19 02:24:50,392 basehttp 25975 140680689092288 "GET /static/css/admin.css HTTP/1.1" 200 4675
+INFO 2025-02-19 02:25:30,596 basehttp 25975 140680689092288 "GET / HTTP/1.1" 200 12076
+INFO 2025-02-19 02:25:55,705 autoreload 27069 140069735096448 Watching for file changes with StatReloader
+INFO 2025-02-19 02:26:43,760 autoreload 27568 140160057335936 Watching for file changes with StatReloader
+INFO 2025-02-19 02:26:49,229 basehttp 25975 140680689092288 "GET / HTTP/1.1" 200 12076
+INFO 2025-02-19 02:26:52,212 basehttp 25975 140680689092288 "GET / HTTP/1.1" 200 12076
+WARNING 2025-02-19 02:26:57,604 log 25975 140680689092288 Unauthorized: /api/dashboard/summary/
+WARNING 2025-02-19 02:26:57,605 basehttp 25975 140680689092288 "GET /api/dashboard/summary/ HTTP/1.1" 401 14595
+INFO 2025-02-19 02:26:57,637 basehttp 25975 140680689092288 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-02-19 02:26:57,661 basehttp 25975 140680567457472 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2025-02-19 02:26:57,662 basehttp 25975 140680657635008 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-02-19 02:26:57,662 basehttp 25975 140680668120768 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-02-19 02:26:57,662 basehttp 25975 140680678606528 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2025-02-19 02:26:57,664 basehttp 25975 140680577943232 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2025-02-19 02:26:57,679 basehttp 25975 140680657635008 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2025-02-19 02:26:57,682 basehttp 25975 140680678606528 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-02-19 02:26:57,685 basehttp 25975 140680567457472 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-02-19 02:26:57,687 basehttp 25975 140680668120768 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-02-19 02:26:57,722 basehttp 25975 140680689092288 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-02-19 02:27:10,418 basehttp 25975 140680567457472 "GET /admin/ HTTP/1.1" 200 26486
+INFO 2025-02-19 02:27:10,491 basehttp 25975 140680567457472 "GET /static/css/admin.css HTTP/1.1" 304 0
+ERROR 2025-02-19 02:27:16,858 log 25975 140680567457472 Internal Server Error: /admin/project_management/project/
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/engine.py", line 212, in select_template
+    raise TemplateDoesNotExist(", ".join(not_found))
+django.template.exceptions.TemplateDoesNotExist: admin/object_tools.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: admin/object_tools.html
+ERROR 2025-02-19 02:27:17,118 log 25975 140680678606528 Internal Server Error: /admin/project_management/project/
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/engine.py", line 212, in select_template
+    raise TemplateDoesNotExist(", ".join(not_found))
+django.template.exceptions.TemplateDoesNotExist: admin/object_tools.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: admin/object_tools.html
+ERROR 2025-02-19 02:27:17,170 basehttp 25975 140680678606528 "GET /admin/project_management/project/ HTTP/1.1" 500 452951
+INFO 2025-02-19 02:27:20,100 basehttp 25975 140680678606528 "GET /admin/ HTTP/1.1" 200 26485
+INFO 2025-02-19 02:27:25,806 basehttp 25975 140680678606528 "GET /admin/project_management/project/add/ HTTP/1.1" 200 28585
+INFO 2025-02-19 02:28:43,851 autoreload 25975 140680805224576 /home/nessta/Desktop/management_system/project_management/admin.py changed, reloading.
+INFO 2025-02-19 02:28:45,020 autoreload 28756 140398081183872 Watching for file changes with StatReloader
+INFO 2025-02-19 02:29:05,313 autoreload 28756 140398081183872 /home/nessta/Desktop/management_system/project_management/admin.py changed, reloading.
+INFO 2025-02-19 02:29:06,354 autoreload 28969 139997839204480 Watching for file changes with StatReloader
+INFO 2025-02-19 02:31:48,371 autoreload 28969 139997839204480 /home/nessta/Desktop/management_system/project_management/models.py changed, reloading.
+INFO 2025-02-19 02:31:49,544 autoreload 30508 140548767973504 Watching for file changes with StatReloader
+INFO 2025-02-19 02:32:36,017 autoreload 30508 140548767973504 /home/nessta/Desktop/management_system/project_management/admin.py changed, reloading.
+INFO 2025-02-19 02:32:37,247 autoreload 30946 139767120883840 Watching for file changes with StatReloader
+INFO 2025-02-19 02:38:40,763 autoreload 34344 140470862934144 Watching for file changes with StatReloader
+ERROR 2025-02-19 02:38:50,325 log 34344 140470745302720 Internal Server Error: /admin/logout/
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 272, in get_language_info
+    lang_info = LANG_INFO[lang_code]
+                ~~~~~~~~~^^^^^^^^^^^
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 742, in resolve
+    new_obj = func(obj, *arg_vals)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/templatetags/i18n.py", line 310, in language_bidi
+    return translation.get_language_info(lang_code)["bidi"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 278, in get_language_info
+    if "-" not in lang_code:
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+ERROR 2025-02-19 02:38:50,413 basehttp 34344 140470745302720 "POST /admin/logout/ HTTP/1.1" 500 364831
+INFO 2025-02-19 02:38:50,498 basehttp 34344 140470661416640 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-02-19 02:38:50,502 basehttp 34344 140470745302720 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:38:50,598 basehttp 34344 140470745302720 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:38:50,745 basehttp 34344 140470745302720 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-02-19 02:38:56,447 basehttp 34344 140470745302720 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2025-02-19 02:38:56,622 log 34344 140470745302720 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 272, in get_language_info
+    lang_info = LANG_INFO[lang_code]
+                ~~~~~~~~~^^^^^^^^^^^
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 742, in resolve
+    new_obj = func(obj, *arg_vals)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/templatetags/i18n.py", line 310, in language_bidi
+    return translation.get_language_info(lang_code)["bidi"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 278, in get_language_info
+    if "-" not in lang_code:
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+ERROR 2025-02-19 02:38:56,654 basehttp 34344 140470745302720 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 251167
+INFO 2025-02-19 02:39:05,028 basehttp 34344 140470745302720 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2025-02-19 02:39:05,318 log 34344 140470745302720 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 272, in get_language_info
+    lang_info = LANG_INFO[lang_code]
+                ~~~~~~~~~^^^^^^^^^^^
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 742, in resolve
+    new_obj = func(obj, *arg_vals)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/templatetags/i18n.py", line 310, in language_bidi
+    return translation.get_language_info(lang_code)["bidi"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 278, in get_language_info
+    if "-" not in lang_code:
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+ERROR 2025-02-19 02:39:05,350 basehttp 34344 140470745302720 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 251167
+INFO 2025-02-19 02:39:17,720 basehttp 34344 140470745302720 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2025-02-19 02:39:17,950 log 34344 140470745302720 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 272, in get_language_info
+    lang_info = LANG_INFO[lang_code]
+                ~~~~~~~~~^^^^^^^^^^^
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 742, in resolve
+    new_obj = func(obj, *arg_vals)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/templatetags/i18n.py", line 310, in language_bidi
+    return translation.get_language_info(lang_code)["bidi"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 278, in get_language_info
+    if "-" not in lang_code:
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+ERROR 2025-02-19 02:39:17,989 basehttp 34344 140470745302720 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 251441
+INFO 2025-02-19 02:39:20,285 basehttp 34344 140470745302720 "GET / HTTP/1.1" 200 11455
+INFO 2025-02-19 02:39:23,706 basehttp 34344 140470745302720 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2025-02-19 02:39:23,945 log 34344 140470745302720 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 272, in get_language_info
+    lang_info = LANG_INFO[lang_code]
+                ~~~~~~~~~^^^^^^^^^^^
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 742, in resolve
+    new_obj = func(obj, *arg_vals)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/templatetags/i18n.py", line 310, in language_bidi
+    return translation.get_language_info(lang_code)["bidi"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 278, in get_language_info
+    if "-" not in lang_code:
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+ERROR 2025-02-19 02:39:23,983 basehttp 34344 140470745302720 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 251318
+INFO 2025-02-19 02:41:41,278 autoreload 34344 140470862934144 /home/nessta/Desktop/management_system/management_system/settings.py changed, reloading.
+INFO 2025-02-19 02:41:43,433 autoreload 36226 139848654807168 Watching for file changes with StatReloader
+INFO 2025-02-19 02:41:48,670 autoreload 36226 139848654807168 /home/nessta/Desktop/management_system/dashboard/urls.py changed, reloading.
+INFO 2025-02-19 02:41:50,483 autoreload 36337 140499711705216 Watching for file changes with StatReloader
+ERROR 2025-02-19 02:42:05,475 log 36337 140499518228160 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 272, in get_language_info
+    lang_info = LANG_INFO[lang_code]
+                ~~~~~~~~~^^^^^^^^^^^
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 742, in resolve
+    new_obj = func(obj, *arg_vals)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/templatetags/i18n.py", line 310, in language_bidi
+    return translation.get_language_info(lang_code)["bidi"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 278, in get_language_info
+    if "-" not in lang_code:
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+ERROR 2025-02-19 02:42:05,546 basehttp 36337 140499518228160 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 251205
+INFO 2025-02-19 02:42:12,533 basehttp 36337 140499518228160 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2025-02-19 02:42:12,714 log 36337 140499518228160 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 272, in get_language_info
+    lang_info = LANG_INFO[lang_code]
+                ~~~~~~~~~^^^^^^^^^^^
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 742, in resolve
+    new_obj = func(obj, *arg_vals)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/templatetags/i18n.py", line 310, in language_bidi
+    return translation.get_language_info(lang_code)["bidi"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 278, in get_language_info
+    if "-" not in lang_code:
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+ERROR 2025-02-19 02:42:12,744 basehttp 36337 140499518228160 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 251205
+INFO 2025-02-19 02:42:22,743 basehttp 36337 140499518228160 "GET / HTTP/1.1" 200 11456
+INFO 2025-02-19 02:42:26,265 basehttp 36337 140499518228160 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2025-02-19 02:42:26,424 log 36337 140499518228160 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 272, in get_language_info
+    lang_info = LANG_INFO[lang_code]
+                ~~~~~~~~~^^^^^^^^^^^
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 742, in resolve
+    new_obj = func(obj, *arg_vals)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/templatetags/i18n.py", line 310, in language_bidi
+    return translation.get_language_info(lang_code)["bidi"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/utils/translation/__init__.py", line 278, in get_language_info
+    if "-" not in lang_code:
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+ERROR 2025-02-19 02:42:26,457 basehttp 36337 140499518228160 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 251356
+INFO 2025-02-19 02:43:02,433 autoreload 36337 140499711705216 /home/nessta/Desktop/management_system/management_system/settings.py changed, reloading.
+INFO 2025-02-19 02:43:03,684 autoreload 37082 140064392495232 Watching for file changes with StatReloader
+INFO 2025-02-19 02:43:29,297 autoreload 37082 140064392495232 /home/nessta/Desktop/management_system/management_system/settings.py changed, reloading.
+INFO 2025-02-19 02:43:30,311 autoreload 37548 140145197449344 Watching for file changes with StatReloader
+INFO 2025-02-19 02:43:39,759 autoreload 37676 140500803854464 Watching for file changes with StatReloader
+INFO 2025-02-19 02:44:05,004 basehttp 37548 140145080665792 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2025-02-19 02:44:05,165 log 37548 140145080665792 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_password_reset' not found. 'admin_password_reset' is not a valid view function or pattern name.
+ERROR 2025-02-19 02:44:05,196 basehttp 37548 140145080665792 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 226198
+INFO 2025-02-19 02:45:32,390 autoreload 37548 140145197449344 /home/nessta/Desktop/management_system/management_system/urls.py changed, reloading.
+INFO 2025-02-19 02:45:33,598 autoreload 38732 140318192701568 Watching for file changes with StatReloader
+INFO 2025-02-19 02:45:47,946 autoreload 38732 140318192701568 /home/nessta/Desktop/management_system/management_system/urls.py changed, reloading.
+INFO 2025-02-19 02:45:49,112 autoreload 38907 139765872840832 Watching for file changes with StatReloader
+INFO 2025-02-19 02:45:57,468 autoreload 39019 140011273576576 Watching for file changes with StatReloader
+INFO 2025-02-19 02:46:53,380 autoreload 39855 140167216242816 Watching for file changes with StatReloader
+INFO 2025-02-19 02:47:02,774 basehttp 39855 140167098664640 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-02-19 02:47:02,853 basehttp 39855 140167098664640 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 19757
+INFO 2025-02-19 02:47:02,970 basehttp 39855 140167098664640 "GET /static/css/admin_custom.css HTTP/1.1" 200 7536
+INFO 2025-02-19 02:47:02,981 basehttp 39855 140167098664640 "GET /static/css/admin.css HTTP/1.1" 200 4675
+INFO 2025-02-19 02:47:02,984 basehttp 39855 140167077693120 "GET /static/css/admin_header.css HTTP/1.1" 200 2427
+INFO 2025-02-19 02:47:02,986 basehttp 39855 140167088178880 "GET /static/css/admin_rtl.css HTTP/1.1" 200 2363
+INFO 2025-02-19 02:47:02,989 basehttp 39855 140166983321280 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:47:02,987 basehttp 39855 140166993807040 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:47:02,998 basehttp 39855 140166972835520 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:47:03,005 basehttp 39855 140166993807040 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:47:03,012 basehttp 39855 140167088178880 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-02-19 02:47:03,014 basehttp 39855 140166972835520 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-02-19 02:47:08,385 basehttp 39855 140167088178880 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-02-19 02:47:08,573 basehttp 39855 140167088178880 "GET /admin/ HTTP/1.1" 200 29809
+INFO 2025-02-19 02:47:08,662 basehttp 39855 140167088178880 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-02-19 02:47:22,761 basehttp 39855 140167088178880 "GET /admin/sales/customer/add/ HTTP/1.1" 200 29537
+INFO 2025-02-19 02:47:37,828 basehttp 39855 140167088178880 "GET / HTTP/1.1" 200 12061
+WARNING 2025-02-19 02:47:41,005 log 39855 140167088178880 Unauthorized: /api/projects/
+WARNING 2025-02-19 02:47:41,006 basehttp 39855 140167088178880 "GET /api/projects/ HTTP/1.1" 401 14540
+INFO 2025-02-19 02:47:55,414 basehttp 39855 140167088178880 "GET /admin/ HTTP/1.1" 200 29808
+INFO 2025-02-19 02:47:55,493 basehttp 39855 140167088178880 "GET /static/css/admin.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:47:55,494 basehttp 39855 140166993807040 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:47:55,504 basehttp 39855 140166993807040 "GET /static/css/admin_rtl.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:47:55,512 basehttp 39855 140167088178880 "GET /static/css/admin_header.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:48:15,599 basehttp 39855 140167088178880 "GET /admin/sales/product/add/ HTTP/1.1" 200 29571
+INFO 2025-02-19 02:53:49,912 autoreload 43676 140438794342528 Watching for file changes with StatReloader
+INFO 2025-02-19 02:53:55,337 basehttp 43676 140438677751488 "GET /admin/sales/product/add/ HTTP/1.1" 200 29809
+INFO 2025-02-19 02:53:55,384 basehttp 43676 140438583379648 "GET /static/css/admin_rtl.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:53:55,391 basehttp 43676 140438572893888 "GET /static/css/admin_header.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:53:55,394 basehttp 43676 140438677751488 "GET /static/css/admin.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:53:55,395 basehttp 43676 140438667265728 "GET /static/css/admin_custom.css HTTP/1.1" 200 8018
+INFO 2025-02-19 02:56:48,021 autoreload 45385 140590586617984 Watching for file changes with StatReloader
+INFO 2025-02-19 02:56:51,705 basehttp 45385 140590469613248 "GET / HTTP/1.1" 200 12063
+WARNING 2025-02-19 02:56:54,100 log 45385 140590469613248 Unauthorized: /api/dashboard/summary/
+WARNING 2025-02-19 02:56:54,100 basehttp 45385 140590469613248 "GET /api/dashboard/summary/ HTTP/1.1" 401 14576
+INFO 2025-02-19 02:57:03,279 basehttp 45385 140590469613248 "GET /admin/ HTTP/1.1" 200 29809
+INFO 2025-02-19 02:57:03,342 basehttp 45385 140590469613248 "GET /static/css/admin.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:57:03,344 basehttp 45385 140590373144256 "GET /static/css/admin_rtl.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:57:03,348 basehttp 45385 140590362658496 "GET /static/css/admin_header.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:57:03,349 basehttp 45385 140590383630016 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 02:57:07,477 basehttp 45385 140590383630016 "GET /admin/crm/activity/add/ HTTP/1.1" 200 29908
+INFO 2025-02-19 03:10:18,715 basehttp 45385 140590362658496 "GET /admin/crm/activity/add/ HTTP/1.1" 200 29908
+INFO 2025-02-19 03:10:18,744 basehttp 45385 140590362658496 "GET /static/css/admin.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:10:18,746 basehttp 45385 140590469613248 "GET /static/css/admin_rtl.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:10:18,750 basehttp 45385 140590373144256 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:10:18,752 basehttp 45385 140590383630016 "GET /static/css/admin_header.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:10:23,423 basehttp 45385 140590362658496 "GET /admin/crm/activity/add/ HTTP/1.1" 200 29908
+INFO 2025-02-19 03:10:28,788 basehttp 45385 140590362658496 "GET /admin/project_management/project/add/ HTTP/1.1" 200 32233
+INFO 2025-02-19 03:10:28,814 basehttp 45385 140590362658496 "GET /static/css/project_form.css HTTP/1.1" 200 2986
+INFO 2025-02-19 03:10:48,269 basehttp 45385 140590362658496 "GET /admin/project_management/project/add/ HTTP/1.1" 200 32231
+INFO 2025-02-19 03:10:51,431 basehttp 45385 140590362658496 "GET /admin/project_management/project/add/ HTTP/1.1" 200 32231
+INFO 2025-02-19 03:10:55,831 basehttp 45385 140590383630016 "GET /admin/project_management/task/add/ HTTP/1.1" 200 34539
+INFO 2025-02-19 03:10:55,881 basehttp 45385 140590383630016 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-02-19 03:10:55,885 basehttp 45385 140590469613248 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2025-02-19 03:10:55,886 basehttp 45385 140590373144256 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-02-19 03:10:59,351 basehttp 45385 140590383630016 "GET /admin/project_management/project/add/ HTTP/1.1" 200 32231
+INFO 2025-02-19 03:11:07,010 basehttp 45385 140590383630016 "GET /admin/project_management/project/add/ HTTP/1.1" 200 32231
+INFO 2025-02-19 03:16:45,455 autoreload 45385 140590586617984 /home/nessta/Desktop/management_system/project_management/admin.py changed, reloading.
+INFO 2025-02-19 03:16:49,518 autoreload 55841 140591175573632 Watching for file changes with StatReloader
+INFO 2025-02-19 03:16:54,757 basehttp 55841 140590987609792 "GET / HTTP/1.1" 200 12063
+INFO 2025-02-19 03:16:59,194 basehttp 55841 140590987609792 "GET /admin/ HTTP/1.1" 200 29809
+INFO 2025-02-19 03:16:59,251 basehttp 55841 140590987609792 "GET /static/css/admin.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:16:59,265 basehttp 55841 140590977124032 "GET /static/css/admin_rtl.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:16:59,266 basehttp 55841 140590987609792 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:16:59,272 basehttp 55841 140590977124032 "GET /static/css/admin_header.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:17:06,074 basehttp 55841 140590977124032 "GET /admin/auth/group/add/ HTTP/1.1" 200 27357
+INFO 2025-02-19 03:29:51,032 autoreload 5174 140712807297152 Watching for file changes with StatReloader
+INFO 2025-02-19 03:29:56,553 basehttp 5174 140712689534656 "GET / HTTP/1.1" 200 12063
+INFO 2025-02-19 03:29:56,855 basehttp 5174 140712689534656 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:29:56,857 basehttp 5174 140712679048896 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-02-19 03:29:56,885 basehttp 5174 140712679048896 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:29:57,047 basehttp 5174 140712679048896 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2025-02-19 03:29:57,189 log 5174 140712679048896 Not Found: /favicon.ico
+WARNING 2025-02-19 03:29:57,189 basehttp 5174 140712679048896 "GET /favicon.ico HTTP/1.1" 404 14003
+INFO 2025-02-19 03:30:00,896 basehttp 5174 140712679048896 "GET /admin/ HTTP/1.1" 200 29809
+INFO 2025-02-19 03:30:00,915 basehttp 5174 140712679048896 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:30:00,918 basehttp 5174 140712668563136 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:30:00,919 basehttp 5174 140712689534656 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:30:00,935 basehttp 5174 140712668563136 "GET /static/css/admin.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:30:00,936 basehttp 5174 140712689534656 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:30:00,963 basehttp 5174 140712679048896 "GET /static/css/admin_rtl.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:30:00,984 basehttp 5174 140712668563136 "GET /static/css/admin_header.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:30:00,988 basehttp 5174 140712689534656 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-02-19 03:30:01,023 basehttp 5174 140712679048896 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-02-19 03:30:01,031 basehttp 5174 140712668563136 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-02-19 03:30:01,082 basehttp 5174 140712668563136 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-02-19 03:30:04,840 basehttp 5174 140712679048896 "GET /admin/crm/activity/add/ HTTP/1.1" 200 29910
+INFO 2025-02-19 03:32:30,252 autoreload 5174 140712807297152 /home/nessta/Desktop/management_system/project_management/admin.py changed, reloading.
+INFO 2025-02-19 03:32:31,676 autoreload 6765 140194672726144 Watching for file changes with StatReloader
+INFO 2025-02-19 03:32:35,703 basehttp 6765 140194554578624 "GET / HTTP/1.1" 200 12063
+INFO 2025-02-19 03:32:39,442 basehttp 6765 140194554578624 "GET /admin/ HTTP/1.1" 200 29809
+INFO 2025-02-19 03:32:42,753 basehttp 6765 140194554578624 "GET /admin/auth/group/add/ HTTP/1.1" 200 27355
+INFO 2025-02-19 03:32:42,849 basehttp 6765 140194554578624 "GET /admin/auth/group/add/ HTTP/1.1" 200 27355
+INFO 2025-02-19 03:32:45,354 basehttp 6765 140194554578624 "GET /admin/crm/activity/add/ HTTP/1.1" 200 29908
+INFO 2025-02-19 03:59:55,389 autoreload 6765 140194672726144 /home/nessta/Desktop/management_system/project_management/admin.py changed, reloading.
+INFO 2025-02-19 03:59:56,690 autoreload 23343 140004830425216 Watching for file changes with StatReloader
+INFO 2025-02-19 04:00:00,747 basehttp 23343 140004714088128 "GET / HTTP/1.1" 200 12063
+INFO 2025-02-19 04:00:04,191 basehttp 23343 140004714088128 "GET /admin/ HTTP/1.1" 200 29809
+INFO 2025-02-19 04:00:04,226 basehttp 23343 140004703602368 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:00:04,228 basehttp 23343 140004714088128 "GET /static/css/admin.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:00:04,233 basehttp 23343 140004703602368 "GET /static/css/admin_rtl.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:00:04,237 basehttp 23343 140004693116608 "GET /static/css/admin_header.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:00:08,412 basehttp 23343 140004703602368 "GET /admin/crm/activity/add/ HTTP/1.1" 200 29909
+INFO 2025-02-19 04:00:10,597 basehttp 23343 140004703602368 "GET /admin/crm/opportunity/add/ HTTP/1.1" 200 30761
+INFO 2025-02-19 04:00:18,364 basehttp 23343 140004703602368 "GET /admin/dashboard/userwidgetsettings/add/ HTTP/1.1" 200 28576
+INFO 2025-02-19 04:02:42,108 autoreload 24900 140052144636032 Watching for file changes with StatReloader
+INFO 2025-02-19 04:02:45,893 basehttp 24900 140052027934400 "GET / HTTP/1.1" 200 12063
+INFO 2025-02-19 04:02:53,465 basehttp 24900 140052027934400 "GET /admin/ HTTP/1.1" 200 29809
+INFO 2025-02-19 04:02:56,242 basehttp 24900 140052027934400 "GET /admin/auth/group/add/ HTTP/1.1" 200 35159
+INFO 2025-02-19 04:03:00,905 basehttp 24900 140052027934400 "GET /admin/crm/lead/add/ HTTP/1.1" 200 33258
+INFO 2025-02-19 04:03:00,947 basehttp 24900 140052027934400 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-02-19 04:03:00,947 basehttp 24900 140052017448640 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2025-02-19 04:03:00,949 basehttp 24900 140052006962880 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-02-19 04:03:18,573 basehttp 24900 140052006962880 "GET /admin/sales/customer/add/ HTTP/1.1" 200 30315
+INFO 2025-02-19 04:03:30,156 basehttp 24900 140052006962880 "GET /admin/project_management/task/add/ HTTP/1.1" 200 35054
+INFO 2025-02-19 04:03:30,187 basehttp 24900 140052006962880 "GET /static/css/project_form.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:03:41,332 basehttp 24900 140052006962880 "GET /admin/project_management/project/add/ HTTP/1.1" 200 32406
+INFO 2025-02-19 04:06:52,691 autoreload 24900 140052144636032 /home/nessta/Desktop/management_system/project_management/admin.py changed, reloading.
+INFO 2025-02-19 04:06:53,872 autoreload 27109 140694734971008 Watching for file changes with StatReloader
+INFO 2025-02-19 04:07:00,212 autoreload 27172 140071337361536 Watching for file changes with StatReloader
+INFO 2025-02-19 04:07:05,806 basehttp 27172 140071221069504 "GET / HTTP/1.1" 200 12063
+INFO 2025-02-19 04:07:09,597 basehttp 27172 140071221069504 "GET /admin/ HTTP/1.1" 200 29809
+INFO 2025-02-19 04:07:09,640 basehttp 27172 140071221069504 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:07:15,178 basehttp 27172 140071221069504 "GET /admin/project_management/project/add/ HTTP/1.1" 200 32423
+INFO 2025-02-19 04:09:49,078 autoreload 28739 140499764912256 Watching for file changes with StatReloader
+INFO 2025-02-19 04:09:52,573 basehttp 28739 140499579045568 "GET / HTTP/1.1" 200 12063
+INFO 2025-02-19 04:09:55,795 basehttp 28739 140499579045568 "GET /admin/ HTTP/1.1" 200 29809
+INFO 2025-02-19 04:09:55,826 basehttp 28739 140499579045568 "GET /static/css/admin.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:09:55,836 basehttp 28739 140499568559808 "GET /static/css/admin_rtl.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:09:55,841 basehttp 28739 140499568559808 "GET /static/css/admin_header.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:10:01,390 basehttp 28739 140499568559808 "GET /admin/project_management/project/add/ HTTP/1.1" 200 35845
+INFO 2025-02-19 04:10:07,315 basehttp 28739 140499568559808 "GET /admin/users/customuser/add/?_to_field=id&_popup=1 HTTP/1.1" 200 20606
+INFO 2025-02-19 04:10:11,916 basehttp 28739 140499568559808 "GET /admin/project_management/project/add/ HTTP/1.1" 200 35845
+INFO 2025-02-19 04:14:11,150 autoreload 31047 140218112761984 Watching for file changes with StatReloader
+INFO 2025-02-19 04:14:14,558 basehttp 31047 140217923143360 "GET / HTTP/1.1" 200 12063
+INFO 2025-02-19 04:14:21,981 basehttp 31047 140217923143360 "GET /admin/ HTTP/1.1" 200 29809
+INFO 2025-02-19 04:14:31,202 basehttp 31047 140217912657600 "GET /admin/project_management/project/add/ HTTP/1.1" 200 35845
+INFO 2025-02-19 04:14:31,233 basehttp 31047 140217912657600 "GET /static/css/admin_custom.css HTTP/1.1" 200 5843
+INFO 2025-02-19 04:14:42,680 basehttp 31047 140217912657600 "GET /admin/users/customuser/add/?_to_field=id&_popup=1 HTTP/1.1" 200 20606
+INFO 2025-02-19 04:14:42,706 basehttp 31047 140217912657600 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:15:37,938 basehttp 31047 140217912657600 "GET /__debug__/render_panel/?store_id=b139962334884673be1f209358d7bee1&panel_id=VersionsPanel HTTP/1.1" 200 981
+INFO 2025-02-19 04:16:09,603 basehttp 31047 140217912657600 "POST /admin/users/customuser/add/?_to_field=id&_popup=1 HTTP/1.1" 200 24333
+INFO 2025-02-19 04:16:09,658 basehttp 31047 140217912657600 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:16:09,660 basehttp 31047 140217923143360 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:16:09,662 basehttp 31047 140217902171840 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:16:09,669 basehttp 31047 140217881200320 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:16:09,671 basehttp 31047 140217891686080 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:16:09,673 basehttp 31047 140217795217088 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-02-19 04:16:09,687 basehttp 31047 140217795217088 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-02-19 04:16:09,697 basehttp 31047 140217891686080 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:16:09,748 basehttp 31047 140217891686080 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-02-19 04:16:54,345 basehttp 31047 140217891686080 "POST /admin/users/customuser/add/?_to_field=id&_popup=1 HTTP/1.1" 200 25024
+INFO 2025-02-19 04:16:54,376 basehttp 31047 140217891686080 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:18:19,259 basehttp 31047 140217891686080 "GET / HTTP/1.1" 200 12061
+INFO 2025-02-19 04:18:25,150 basehttp 31047 140217891686080 "GET /admin/ HTTP/1.1" 200 29807
+INFO 2025-02-19 04:18:25,185 basehttp 31047 140217891686080 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:18:25,193 basehttp 31047 140217795217088 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:18:25,200 basehttp 31047 140217795217088 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-02-19 04:18:25,242 basehttp 31047 140217891686080 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+ERROR 2025-02-19 04:18:32,439 log 31047 140217891686080 Internal Server Error: /admin/project_management/project/
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/test/utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/engine.py", line 212, in select_template
+    raise TemplateDoesNotExist(", ".join(not_found))
+django.template.exceptions.TemplateDoesNotExist: admin/object_tools.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/nessta/Desktop/management_system/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: admin/object_tools.html
+ERROR 2025-02-19 04:18:32,495 basehttp 31047 140217891686080 "GET /admin/project_management/project/ HTTP/1.1" 500 442729
+INFO 2025-02-19 04:18:37,549 basehttp 31047 140217891686080 "GET /admin/ HTTP/1.1" 200 29807
+INFO 2025-02-19 04:18:51,561 basehttp 31047 140217891686080 "GET /admin/users/customuser/add/ HTTP/1.1" 200 29955
+INFO 2025-02-19 04:18:51,591 basehttp 31047 140217891686080 "GET /static/css/admin.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:18:51,591 basehttp 31047 140217795217088 "GET /static/css/admin_rtl.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:18:51,592 basehttp 31047 140217881200320 "GET /static/css/admin_header.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:19:07,146 basehttp 31047 140217891686080 "GET /admin/project_management/project/add/ HTTP/1.1" 200 35843
+INFO 2025-02-19 04:19:07,172 basehttp 31047 140217891686080 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:25:44,095 autoreload 37041 139970189127808 Watching for file changes with StatReloader
+INFO 2025-02-19 04:25:47,058 basehttp 37041 139970071234240 "GET / HTTP/1.1" 200 15029
+INFO 2025-02-19 04:27:59,988 basehttp 37041 139970071234240 "GET /admin/project_management/task/add/ HTTP/1.1" 200 35071
+INFO 2025-02-19 04:28:00,030 basehttp 37041 139970071234240 "GET /static/css/admin_custom.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:28:00,032 basehttp 37041 139970060748480 "GET /static/css/project_form.css HTTP/1.1" 304 0
+INFO 2025-02-19 04:33:56,722 autoreload 41311 140129466409088 Watching for file changes with StatReloader
+INFO 2025-02-19 04:33:59,638 basehttp 41311 140129278625472 "GET / HTTP/1.1" 200 14628

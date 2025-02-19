@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>مرحباً بك في نظام إدارة الأعمال</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+        <div style="text-align: center; margin-bottom: 20px;">
+            <h1>مرحباً بك في نظام إدارة الأعمال!</h1>
+        </div>
+        <div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
+            <p>مرحباً {{ user.get_full_name }}،</p>
+            <p>نرحب بك في نظام إدارة الأعمال. تم إنشاء حسابك بنجاح.</p>
+            <p>معلومات حسابك:</p>
+            <ul>
+                <li>اسم المستخدم: {{ user.username }}</li>
+                <li>البريد الإلكتروني: {{ user.email }}</li>
+                <li>الدور: {{ user.get_role_display }}</li>
+            </ul>
+            <p>يمكنك الآن تسجيل الدخول إلى حسابك والبدء في استخدام النظام.</p>
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="{{ login_url }}" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">تسجيل الدخول</a>
+            </div>
+        </div>
+        <div style="margin-top: 20px; text-align: center; color: #666;">
+            <p>إذا كنت تواجه أي مشكلة، يرجى التواصل مع فريق الدعم.</p>
+        </div>
+    </div>
+</body>
+</html>

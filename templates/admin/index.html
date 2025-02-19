@@ -1,0 +1,140 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static %}
+
+{% block extrastyle %}
+{{ block.super }}
+<style>
+    .app-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .app-item {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+    
+    .app-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .app-item h3 {
+        background: var(--primary-color);
+        color: white;
+        margin: 0;
+        padding: 15px;
+        border-radius: 8px 8px 0 0;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    
+    .model-list {
+        padding: 15px;
+    }
+    
+    .model-link {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        color: var(--text-color);
+        text-decoration: none;
+        border-radius: 4px;
+        margin-bottom: 5px;
+    }
+    
+    .model-link:hover {
+        background: rgba(113, 75, 103, 0.1);
+    }
+    
+    .model-count {
+        margin-right: auto;
+        background: var(--secondary-color);
+        color: white;
+        padding: 2px 8px;
+        border-radius: 10px;
+        font-size: 0.8rem;
+    }
+    
+    .recent-actions {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin: 20px;
+    }
+    
+    .recent-actions h2 {
+        background: var(--primary-color);
+        color: white;
+        margin: 0;
+        padding: 15px;
+        border-radius: 8px 8px 0 0;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    
+    .recent-actions-list {
+        padding: 15px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="app-list">
+    {% for app in app_list %}
+    <div class="app-item">
+        <h3>{{ app.name }}</h3>
+        <div class="model-list">
+            {% for model in app.models %}
+            {% if model.admin_url %}
+            <a href="{{ model.admin_url }}" class="model-link">
+                {{ model.name }}
+                {% if model.count %}
+                <span class="model-count">{{ model.count }}</span>
+                {% endif %}
+            </a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% if user.is_authenticated and user.is_active and user.is_staff %}
+<div class="recent-actions">
+    <h2>{% trans 'Recent Actions' %}</h2>
+    <div class="recent-actions-list">
+        {% load log %}
+        {% get_admin_log 10 as admin_log for_user user %}
+        {% if not admin_log %}
+        <p>{% trans 'None available' %}</p>
+        {% else %}
+        <ul>
+            {% for entry in admin_log %}
+            <li>
+                {% if entry.is_change %}
+                <span class="changelink">{% trans 'Change' %}</span>
+                {% elif entry.is_deletion %}
+                <span class="deletelink">{% trans 'Delete' %}</span>
+                {% elif entry.is_addition %}
+                <span class="addlink">{% trans 'Add' %}</span>
+                {% endif %}
+                {{ entry.object_repr }}
+                <br/>
+                {% if entry.content_type %}
+                <span class="mini">{% filter capfirst %}{{ entry.content_type.name }}{% endfilter %}</span>
+                {% else %}
+                <span class="mini">{% trans 'Unknown content' %}</span>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</div>
+{% endif %}
+{% endblock %}
